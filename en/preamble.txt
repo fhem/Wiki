@@ -1,0 +1,51 @@
+Preamble
+
+The FHEM forum is a place to communicate with mutual respect. So we expect every member to interact politely and in a constructive way.
+
+This is the first an most important guideline for all users in our forum, which is operated by the FHEM e.V. [[Impressum]]. To help our non-german speaking members to get an overview of the most relevant further rules and conventions here, you'll find below some more of them. It's an excerpt aiming to give orientation, but does explicitly not claim neither to be complete nor to be decicive. You'll find a list of the the only applicaple full German versions cited here at the end of this text.
+
+Up to now the forum has more than 20.000 registered members. Despite there's merely no need to do so, the moderators are empowered to take measures including total ban of users in case of abuse or massive netiquette [[https://en.wikipedia.org/wiki/Etiquette_in_technologyhttps://en.wikipedia.org/wiki/Etiquette_in_technology]] violation.
+So avoid insulting, derogative, sexist or racist statements, threats, personal offenses, disputes or discussions without relevance to technical questions, spam or linkspam, advertising and buissnesslike pursuit of commercial interests.
+
+In case moderators are informed about violations, they might decide without any feedback to the informer. Interpretation of our guidelines is at the discretion of the staff. Note: In cases of personal differences, often opening a personal contact via pm might be the more constructive way to get them out of the world rather than involving moderators, who may find better options to spend their free time.
+
+2. Users
+
+The forum itself is not profit orientated. So most users aren't also pursuing businesslike interests. Nevertheless, forum membership is also possible for individuals or organisations with a commercial background, but in those cases we expect respective open information to the other members. If you are pursuing "commercial interests" or doubt whether your personal situation might be considered as such, please do not hesitate to ask for more information about how to deal with this, the german guidelines are found here [[-Kommerziell]]. 
+
+3. Privacy
+
+A lot of users and FHEM developers consider privacy a very valuable good. So no wonder FHEM offers cloudless home automation opportunities.
+You'll find quite a number of people propagating the principle: If a problem isn't worth to be discussed publicly, it's not worth beeing discussed at all.
+Keeping that in mind, you'll understand them disliking especially pm.
+
+When posting, remove personal, real-life information such as home addresses, geographical data and phone numbers (especially check "list" output, but mark edits).
+
+4. Copyright
+
+Content created and published here by the operator of this site is subject to German copyright law, the following is a short excerpt of the only applicable rules found here [[https://forum.fhem.de/index.php?action=rules]].
+
+Do not post copyrighted materials (articles, videos, audio, etc.) that you do not have permission to reproduce or distribute. Apart from legally foreseen cases, do not copy or distribute material provided here without permission of the copyright holder.
+
+All published postings (starting with 2008/01/01) in this forum are subject of the license conditions of CC BY-NC-SA 2.0 DE, (German version is relevant, English version see [[https://creativecommons.org/licenses/by-nc-sa/2.0/legalcode]]). In addition, the following has to be obeyed: When citing content from this forum, either link to the author's forum profile or accentuate by other means the fact your citing a specific user of forum.fhem.de. When citing our Wiki, you are allowed to link to the article instead of linking to each individual author.
+
+When posting here, you agree to the above. So all content created by you may be used by others under the terms of mentioned CC BY-NC-SA 2.0 DE.
+
+5. Getting Help
+
+General rules like those here [[http://www.catb.org/~esr/faqs/smart-questions.html]] also apply to this forum.
+
+First place for getting information on any FHEM specific topic is the commandref. Additional, there are some basic articles in the Wiki also available in English, best launch out into the [[QuickStart]].
+
+Chances for help will be better, if you add links to the sources in the commandref you used. Additionally, the "list" command will show you and your helpers a lot of valuable information. So include "lists" of every involved device. Also have a look in the logfile and don't hesitate to post relevant parts of it also, including a few lines before and after the ones you yourself might consider to be relevant. For formatting, use the code tag (#-Button next to the smileys).
+
+Where to post is also a "good" question, especially for our english users. You might either use the "English corner" - a lot of developers have a regular (but often not frequent) view on new post there - or post directly in the relevant part of the forum. Especially if you encounter problems with a specific module, direct posting in the relevant forum part is recommended - most developers will understand English posts or as somebody for help in case if not. You'll find the right place issuing a "help <modulename>" in the command field or looking into MAINTAINER.txt.
+
+For extended problem analysis, you might rise the verbose level of relevant devices, in case of Perl warnings and things not easy to localize use stacktrace (attr global stacktrace 1) for an even more extensive logging.
+
+In most cases screenshots will not provide more info than "list", so prefer the latter.
+
+As the forum is intended to help people (to) help themselves, you also have options to move your threads to other parts of the forum (functionality is located left hand side below first post) and edit the thread title.
+In case your problem is solved it's appreciated if you make a short summary of the solution you found and edit the first post to mark the thread as [solved]. But do not close it. So others may have the opportunity to ask questions or add other feedback you might find valuable in the end.
+
+Kind regards and good success!
