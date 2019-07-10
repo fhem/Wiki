@@ -4,7 +4,7 @@ The FHEM forum is a place to communicate with mutual respect. We expect every me
 
 This is the first and most important guideline for all users in our forum.  
 
-It’s operated by the FHEM e.V. [[Impressum]], a registered charity by german law located in Frankfurt, Germany. To help our non-german speaking members to get an overview of the most relevant rules and conventions applying to here, you'll find below some more of them. It's an excerpt aiming to give orientation but does explicitly not claim to be complete neither to be decisive. The german version is the only fully applicable version of this text and you will find at the end of this text.
+It’s operated by the FHEM e.V. [[Impressum]], a registered charity by german law located in Frankfurt, Germany. To help our non-german speaking members to get an overview of the most relevant rules and conventions applying to here, you'll find below some more of them. It's an excerpt aiming to give orientation but does explicitly not claim to be complete neither to be decisive. The german version is the only fully applicable version of this text and you will find at the end of this text. We put also some further readings (in german) below, please consider these also.
 
 Up to now the forum has more than 20.000 registered members. Despite there's merely no occasion to do so, the moderators are empowered to take measures including total ban of users in case of abuse or massive netiquette [[https://en.wikipedia.org/wiki/Etiquette_in_technology|https://en.wikipedia.org/wiki/Etiquette_in_technology]] violation.
 So avoid insulting, derogative, sexist or racist statements, threats, personal offenses, disputes or discussions without relevance to technical questions, spam or link spam, advertising and businesslike pursuit of commercial interests.
@@ -51,3 +51,11 @@ As the forum is intended to help people to help themselves, you also have the op
 In case your problem is solved it's appreciated if you make a short summary of the solution you found and edit the first post to mark the thread as [solved]. But do not close it. Others may have the opportunity to ask questions or add other feedback you might find valuable in the end.
 
 Kind regards and good luck!
+
+* Imprint: https://forum.fhem.de/index.php?action=rules
+* Terms of Use: https://forum.fhem.de/index.php/topic,2.0.html
+* Read before the first posting: https://forum.fhem.de/index.php/topic,71806.0.html
+* Etiquette: https://forum.fhem.de/index.php?action=rules;sa=additional resp. https://forum.fhem.de/index.php/topic,43383.0.html
+* [[https://en.wikipedia.org/wiki/Etiquette_in_technology|Etiquette in technology]]
+* Commercial users: https://forum.fhem.de/index.php/topic,60272.0.html
+* How to choose a board: https://forum.fhem.de/index.php/topic,65033.0.html
