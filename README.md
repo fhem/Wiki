@@ -1,2 +1,4 @@
-# Wiki
-Placeholder for Wiki related stuff. Just for keeping tasks 'n stuff.
+# FHEM - Documentation
+Select your Language
+- DE
+- EN
