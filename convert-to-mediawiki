@@ -1,0 +1,53 @@
+#!/usr/bin/perl
+## no critic (InputOutput::ProhibitInteractiveTest, CodeLayout::RequireTidyCode)
+package FHEM::DOC::WIKI::Convert;
+
+use strict;
+use warnings FATAL => 'all';
+use Readonly;
+use Pandoc;
+use Carp;
+use Getopt::Long;
+use English qw{-no_match_vars};
+use 5.0140;
+
+Readonly our $VERSION               => q{0.0.1};
+Readonly our $DEFAULT_INPUT_FORMAT  => q{markdown_github};
+Readonly our $DEFAULT_OUTPUT_FORMAT => q{mediawiki};
+
+my $input_file;
+my $output_file;
+my $input_format    = $DEFAULT_INPUT_FORMAT;
+my $output_format   = $DEFAULT_OUTPUT_FORMAT;
+
+sub convert {
+    pandoc
+        -f => qq{$input_format},
+        -t => qq{$output_format},
+        {
+            in  => qq{$input_file},
+            out => \$output_file,
+        };
+
+    return;
+}
+
+# check executable
+pandoc or croak q{pandoc executable not found};
+
+GetOptions(
+    q{input|i=s}    => \$input_file,
+    q{from|f=s}     => \$input_format,
+    q{to|t=s}       => \$output_format,
+    q{output|o=s}   => \$output_file,
+) or croak qq{Error in command line arguments\n"};
+
+if ($output_file eq q{-}) {
+    $output_file = *STDOUT;
+}
+
+convert();
+
+1;
+
+__END__
