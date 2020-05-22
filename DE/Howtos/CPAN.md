@@ -55,6 +55,27 @@ Diese Befehlssequenz aktualisiert alle aktualisierbaren CPAN-Pakete mit Hilfe vo
 
 #### cpan
 
+[``cpan``](https://metacpan.org/pod/CPAN) ist der mit jeder Perl-Installation mitgelieferte Client für das CPAN und lässt sich entweder mit
+
+    perl -MCPAN -e shell
+
+oder
+
+    cpan
+    
+starten. Es wird ein interaktiver Client gestartet; mit ``h`` kann eine sehr umfangreiche Hilfe aufgerufen werden.
+
+Ein Modul lässt sich am einfachsten mit
+
+    cpan install PAKET::NAME
+    
+installieren (hier das nicht-existente Paket ``PAKET::NAME``). ``cpan`` eignet sich weniger gut um Module zu installieren oder zu aktualisieren, aber sehr gut um nach Paketen zu suchen:
+
+    i /JSON/
+    
+findet jedes Paket, das die Zeichenkette ``JSON`` im Bereich Autor, Bundle, Distribution oder Modul enthält. Das sind meist viele Ergebnisse, aber liefert einen Überblick "was geht".
+
+Erfahrungsgemäß ist ``cpan`` recht störrisch in der Handhabung. Deshalb empfehle ich die Nutzung von cpanminus.
 
 ### OS-Paketmanager
 
