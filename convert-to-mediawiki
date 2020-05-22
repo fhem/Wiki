@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 ## no critic (InputOutput::ProhibitInteractiveTest, CodeLayout::RequireTidyCode)
-package FHEM::DOC::WIKI::Convert;
+package FHEM::Doc::Wiki::Convert;
 
 use strict;
 use warnings FATAL => 'all';
