@@ -9,3 +9,5 @@ Reservierte Namespaces, d.h. kein 3rd-Party-Modul soll Code in diese Namespaces 
 ## Erweiterte Namespaces in FHEM
 Erweiterte reservierte Namespaces für FHEM spezifische Module
 * `FHEM::Automation` - Module welche der Automatisierung dienen. Beispiel: DOIF,notify oder AutoShuttersControl
+* `FHEM::Weather` - Module rund um das Wetter. Beispiel: UWZ, Weather, Buienradar
+* `FHEM::Devices` - Devicespezifische Module. Beispiel: AMAD, Gardena
