@@ -242,7 +242,7 @@ Im FHEM-Umfeld werden aktuell rund 120 CPAN-Pakete (mit Sub-Paketen) eingesetzt 
 * XML::LibXML
 * XML::Parser::Lite
 
-[Liste als plain text](https://raw.githubusercontent.com/fhem/doc-wiki/master/DE/Howtos/fhem-cpan-modules.txt), z.B. um sie bein einer automatisierten Installation verwenden zu können. Die Liste wurde mit `Perl::PrereqScanner` aus dem `FHEM/`-Verzeichnis erstellt, durch `Core::List` gefiltert und mit `cpanm` auf Nicht-CPAN-Module (z.B. `FHEM::Meta` oder `DevIO`) geprüft.
+[Liste als plain text](https://raw.githubusercontent.com/fhem/doc-wiki/master/DE/Howtos/fhem-cpan-modules.txt), z.B. um sie bei einer automatisierten Installation verwenden zu können. Die Liste wurde mit `Perl::PrereqScanner` aus dem `FHEM/`-Verzeichnis erstellt, durch `Core::List` gefiltert und mit `cpanm` auf Nicht-CPAN-Module (z.B. `FHEM::Meta` oder `DevIO`) geprüft.
 
 [[Kategorie:HOWTOS]]
 [[Kategorie:Systemadministration]]
