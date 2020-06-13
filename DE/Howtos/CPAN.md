@@ -122,7 +122,7 @@ Für MacOS gilt, dass das installierte Perl den `cpan`-Client und eine Auswahl a
 
 ## Empfohlene Pakete
 
-Im FHEM-Umfeld werden aktuell rund 100 CPAN-Pakete eingesetzt die keine [Core-Module](https://www.perl.com/article/what-is-the-perl-core-/) sind und ggf. für ein FHEM-Modul [nachinstalliert](Meta) werden müssen:
+Im FHEM-Umfeld werden aktuell rund 120 CPAN-Pakete (mit Sub-Paketen) eingesetzt die keine [Core-Module](https://www.perl.com/article/what-is-the-perl-core-/) sind und ggf. für ein FHEM-Modul [nachinstalliert]([Meta]) werden müssen:
 
 * Authen::OATH
 * AutoLoader
