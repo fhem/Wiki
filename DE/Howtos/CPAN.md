@@ -1,3 +1,10 @@
+_Achtung_
+
+Im [Wiki](https://wiki.fhem.de/wiki/CPAN) veröffentlicht!
+
+
+
+
 # CPAN
 
 Das CPAN, Comprehensive Perl Archive Network, ist ein weltweit verteiltes Netzwerk für Perl-Module, das seit 1995 besteht und aktuell etwa 200 000 Module umfasst.
